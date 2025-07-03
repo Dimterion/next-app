@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import homePageImg from "@/assets/images/home_page_img.jpg";
+import homePageImg from "@/assets/images/placeholder_img.jpg";
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
         <Image
           src={homePageImg}
           alt="Home page image"
+          className="rounded-lg"
           width={350}
           height={350}
         />

@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import logo from "@/assets/images/logo.svg";
 
 export default function Header() {
   return (
     <header className="flex w-full items-center justify-between bg-white px-6 py-4">
       <Image
-        src="/logo.svg"
+        src={logo}
         alt="Logo"
         className="w-[50px] md:w-[150px]"
         width={150}

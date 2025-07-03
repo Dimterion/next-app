@@ -1,5 +1,5 @@
 import Image from "next/image";
-import heroImg from "@/assets/images/home_page_img.jpg";
+import heroImg from "@/assets/images/placeholder_img.jpg";
 
 export default function AboutPage() {
   return (
