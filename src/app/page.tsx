@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import homePageImg from "@/assets/images/home_page_img.jpg";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
           </Link>
         </article>
         <Image
-          src="/home_page_img.jpg"
+          src={homePageImg}
           alt="Home page image"
           width={350}
           height={350}

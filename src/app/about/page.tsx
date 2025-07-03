@@ -1,4 +1,5 @@
 import Image from "next/image";
+import heroImg from "@/assets/images/home_page_img.jpg";
 
 export default function AboutPage() {
   return (
@@ -7,7 +8,7 @@ export default function AboutPage() {
         <h1 className="mb-6 text-center text-4xl font-bold">About Next App</h1>
         <article className="mb-12 grid items-center gap-8 md:grid-cols-2">
           <Image
-            src="/home_page_img.jpg"
+            src={heroImg}
             alt="About page image"
             width={350}
             height={350}
