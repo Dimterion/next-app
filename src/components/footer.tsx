@@ -1,3 +1,7 @@
 export default function Footer() {
-  return <footer>&copy; {new Date().getFullYear()} Next App</footer>;
+  return (
+    <footer className="text-center text-sm">
+      &copy; {new Date().getFullYear()} Next App
+    </footer>
+  );
 }
