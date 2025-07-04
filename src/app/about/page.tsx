@@ -3,7 +3,7 @@ import heroImg from "@/assets/images/placeholder_img.jpg";
 
 export default function AboutPage() {
   return (
-    <main>
+    <>
       <section className="container mx-auto max-w-4xl px-4 py-8">
         <h1 className="mb-6 text-center text-4xl font-bold">About Next App</h1>
         <article className="mb-12 grid items-center gap-8 md:grid-cols-2">
@@ -50,6 +50,6 @@ export default function AboutPage() {
         <p className="mb-4 text-gray-700">Lorem ipsum dolor.</p>
         <p className="text-gray-700">Lorem ipsum dolor.</p>
       </section>
-    </main>
+    </>
   );
 }
