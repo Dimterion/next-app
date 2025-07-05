@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Lorem Ipsum 1",
+    "description": "Lorem ipsum dolor 1.",
+    "likes": 1847,
+    "image": "https://place-hold.it/300",
+    "category": "lorem",
+    "dateAdded": "2025-03-15T14:30:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Lorem Ipsum 2",
+    "description": "Lorem ipsum dolor 2.",
+    "likes": 456,
+    "image": "https://place-hold.it/300",
+    "category": "ipsum",
+    "dateAdded": "2025-06-22T09:15:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Lorem Ipsum 3",
+    "description": "Lorem ipsum dolor 3.",
+    "likes": 1253,
+    "image": "https://place-hold.it/300",
+    "category": "dolor",
+    "dateAdded": "2025-09-05T16:45:00Z"
+  }
+]

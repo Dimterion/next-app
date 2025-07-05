@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Albert_Sans, Montserrat_Alternates } from "next/font/google";
+import type { RootLayoutProps } from "@/types";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -21,11 +22,7 @@ export const metadata: Metadata = {
   description: "Next App",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className="h-full scroll-smooth">
       <body
