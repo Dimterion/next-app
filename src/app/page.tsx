@@ -12,7 +12,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold md:text-5xl">Lorem Ipsum</h1>
         <p className="mb-10 text-lg text-gray-600">Lorem ipsum dolor.</p>
         <Link
-          href="/"
+          href="/content"
           className="border-2 border-black bg-white px-6 py-3 text-black transition duration-100 hover:bg-black hover:text-white"
         >
           Next

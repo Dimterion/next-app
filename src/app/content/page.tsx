@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getAllContent } from "@/lib/content";
 import type { Content } from "@/types";
 
@@ -13,7 +14,7 @@ export default async function ContentPage() {
             key={item.id}
             className="mb-[10px] cursor-pointer rounded border border-solid bg-white p-[15px] transition-colors hover:bg-gray-50"
           >
-            <h2>{item.name}</h2>
+            <Link href={`/content/${item.id}`}>{item.name}</Link>
           </li>
         ))}
       </ul>
