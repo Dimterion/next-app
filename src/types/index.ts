@@ -11,3 +11,7 @@ export type Content = {
   category: string;
   dateAdded: string;
 };
+
+export type ContentCardProps = {
+  content: Content;
+};
