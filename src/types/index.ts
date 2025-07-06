@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 export type RootLayoutProps = Readonly<{
   children: React.ReactNode;
 }>;
@@ -14,4 +16,9 @@ export type Content = {
 
 export type ContentCardProps = {
   content: Content;
+};
+
+export type TagProps = {
+  children: ReactNode;
+  className?: string;
 };

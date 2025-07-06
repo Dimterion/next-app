@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ContentCardProps } from "@/types";
 import placeholderImg from "@/assets/images/placeholder_img.jpg";
+import Tag from "@/components/Tag";
 
 export default function ContentCard({ content }: ContentCardProps) {
   return (
@@ -33,7 +34,9 @@ export default function ContentCard({ content }: ContentCardProps) {
           <p className="line-clamp-2 min-h-[2.5rem] text-sm leading-[1.25rem] text-gray-800">
             {content.description}
           </p>
-          <div className="mt-2">{content.category}</div>
+          <div className="mt-2">
+            <Tag>{content.category}</Tag>
+          </div>
           <div
             className="mt-2 flex items-center text-gray-600"
             aria-label={`${content.likes} likes`}
