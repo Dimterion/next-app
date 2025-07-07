@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ContentCardProps } from "@/types";
 import placeholderImg from "@/assets/images/placeholder_img.jpg";
-import Tag from "@/components/Tag";
+import Pill from "@/components/pill";
 
 export default function ContentCard({ content }: ContentCardProps) {
   return (
@@ -35,7 +35,7 @@ export default function ContentCard({ content }: ContentCardProps) {
             {content.description}
           </p>
           <div className="mt-2">
-            <Tag>{content.category}</Tag>
+            <Pill>{content.category}</Pill>
           </div>
           <div
             className="mt-2 flex items-center text-gray-600"

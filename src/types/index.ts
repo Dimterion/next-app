@@ -18,7 +18,7 @@ export type ContentCardProps = {
   content: Content;
 };
 
-export type TagProps = {
+export type PillProps = {
   children: ReactNode;
   className?: string;
 };
