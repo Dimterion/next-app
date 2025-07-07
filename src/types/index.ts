@@ -14,6 +14,12 @@ export type Content = {
   dateAdded: string;
 };
 
+export type ContentItemProps = {
+  params: Promise<{
+    id: string;
+  }>;
+};
+
 export type ContentCardProps = {
   content: Content;
 };

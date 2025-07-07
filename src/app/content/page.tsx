@@ -1,4 +1,4 @@
-import { getAllContent } from "@/lib/content";
+import getAllContent from "@/lib/content";
 import type { Content } from "@/types";
 import ContentCard from "@/components/contentCard";
 
