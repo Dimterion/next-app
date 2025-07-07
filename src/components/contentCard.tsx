@@ -42,7 +42,7 @@ export default function ContentCard({ content }: ContentCardProps) {
             aria-label={`${content.likes} likes`}
           >
             Likes:
-            <span>{content.likes}</span>
+            <span className="ml-1">{content.likes}</span>
           </div>
         </section>
       </article>
