@@ -24,6 +24,11 @@ export type ContentCardProps = {
   content: Content;
 };
 
+export type ContentGridProps = {
+  title: string;
+  content: Content[];
+};
+
 export type PillProps = {
   children: ReactNode;
   className?: string;

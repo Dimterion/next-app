@@ -1,0 +1,5 @@
+[
+  { "displayName": "Lorem", "slug": "Ipsum" },
+  { "displayName": "Dolor", "slug": "Lorem Ipsum" },
+  { "displayName": "Lorem Ipsum", "slug": "Dolor" }
+]
