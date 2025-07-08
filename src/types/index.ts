@@ -14,6 +14,11 @@ export type Content = {
   dateAdded: string;
 };
 
+export type Category = {
+  displayName: string;
+  slug: string;
+};
+
 export type ContentItemProps = {
   params: Promise<{
     id: string;
