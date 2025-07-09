@@ -1,5 +1,5 @@
 [
-  { "displayName": "Lorem", "slug": "Ipsum" },
-  { "displayName": "Dolor", "slug": "Lorem Ipsum" },
+  { "displayName": "Lorem", "slug": "Lorem" },
+  { "displayName": "Dolor", "slug": "Ipsum" },
   { "displayName": "Lorem Ipsum", "slug": "Dolor" }
 ]
