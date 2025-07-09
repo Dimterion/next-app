@@ -14,14 +14,20 @@ export type Content = {
   dateAdded: string;
 };
 
+export type ContentItemProps = {
+  params: Promise<{
+    id: string;
+  }>;
+};
+
 export type Category = {
   displayName: string;
   slug: string;
 };
 
-export type ContentItemProps = {
+export type CategoryItemProps = {
   params: Promise<{
-    id: string;
+    categoryName: string;
   }>;
 };
 
