@@ -4,7 +4,7 @@ import homePageImg from "@/assets/images/placeholder_img.jpg";
 
 export default function Home() {
   return (
-    <section className="mx-auto flex max-w-7xl flex-col-reverse items-center justify-between gap-8 px-6 py-12 md:flex-row">
+    <main className="mx-auto flex max-w-7xl flex-col-reverse items-center justify-between gap-8 px-6 py-12 md:flex-row">
       <article className="flex-1 space-y-6">
         <p className="hidden text-sm text-gray-600 uppercase md:block">
           Next App
@@ -25,6 +25,6 @@ export default function Home() {
         width={350}
         height={350}
       />
-    </section>
+    </main>
   );
 }

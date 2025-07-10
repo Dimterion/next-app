@@ -29,7 +29,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={`${albertSans.className} ${montserratAlternates.variable} flex h-full flex-col`}
       >
         <Header />
-        <main className="flex-1">{children}</main>
+        {children}
         <Footer />
       </body>
     </html>
