@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/images/logo.svg";
+import NavLink from "./navLink";
 
 export default function Header() {
   return (
@@ -15,8 +16,8 @@ export default function Header() {
         />
       </Link>
       <nav className="flex items-center gap-2.5 text-sm uppercase">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
+        <NavLink href="/">Home</NavLink>
+        <NavLink href="/about">About</NavLink>
       </nav>
     </header>
   );

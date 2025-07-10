@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --color-orange-accent: #f77d36;
+}
+
 h1,
 h2,
 h3,
