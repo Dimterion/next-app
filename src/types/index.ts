@@ -25,6 +25,10 @@ export type Category = {
   slug: string;
 };
 
+export type GetContentParams = {
+  category?: string;
+};
+
 export type CategoryItemProps = {
   params: Promise<{
     categoryName: string;

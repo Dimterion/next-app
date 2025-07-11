@@ -25,5 +25,41 @@
     "image": "https://place-hold.it/300",
     "category": "dolor",
     "dateAdded": "2025-09-05T16:45:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Lorem Ipsum 4",
+    "description": "Lorem Ipsum 4.",
+    "likes": 892,
+    "image": "https://place-hold.it/300",
+    "category": "lorem",
+    "dateAdded": "2023-11-30T11:20:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Lorem Ipsum 5",
+    "description": "Lorem Ipsum 5.",
+    "likes": 345,
+    "image": "https://place-hold.it/300",
+    "category": "ipsum",
+    "dateAdded": "2024-01-18T13:40:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Lorem Ipsum 6",
+    "description": "Lorem Ipsum 6.",
+    "likes": 345,
+    "image": "https://place-hold.it/300",
+    "category": "lorem",
+    "dateAdded": "2024-01-18T13:40:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Lorem Ipsum 7",
+    "description": "Lorem Ipsum 7.",
+    "likes": 345,
+    "image": "https://place-hold.it/300",
+    "category": "lorem-ipsum",
+    "dateAdded": "2024-01-18T13:40:00Z"
   }
 ]

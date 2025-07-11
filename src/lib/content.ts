@@ -1,12 +1,22 @@
-import content from "@/assets/content/content.json";
-import type { Content } from "@/types";
+import contentData from "@/assets/content/content.json";
+import type { Content, GetContentParams } from "@/types";
 
-export default async function getAllContent(): Promise<Content[]> {
-  return content;
+export default async function getContent({
+  category,
+}: GetContentParams = {}): Promise<Content[]> {
+  let filteredContent = [...contentData];
+
+  if (category) {
+    filteredContent = contentData.filter(
+      (content: Content) => content.category === category,
+    );
+  }
+
+  return filteredContent;
 }
 
 export async function getContentById(id: string | number): Promise<Content> {
-  const foundContent = content.find(
+  const foundContent = contentData.find(
     (content: Content) => content.id.toString() === id.toString(),
   );
 

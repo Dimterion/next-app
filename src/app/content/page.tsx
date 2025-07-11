@@ -1,8 +1,8 @@
-import getAllContent from "@/lib/content";
+import getContent from "@/lib/content";
 import ContentGrid from "@/components/contentGrid";
 
 export default async function ContentPage() {
-  const content = await getAllContent();
+  const content = await getContent();
 
   return <ContentGrid title="Content" content={content} />;
 }

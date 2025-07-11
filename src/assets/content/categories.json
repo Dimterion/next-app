@@ -1,6 +1,7 @@
 [
-  { "displayName": "Lorem", "slug": "Lorem" },
-  { "displayName": "Dolor", "slug": "Ipsum" },
-  { "displayName": "Lorem Ipsum", "slug": "Dolor" },
-  { "displayName": "Lorem Ipsum Dolor", "slug": "LoremIpsum" }
+  { "displayName": "Lorem", "slug": "lorem" },
+  { "displayName": "Ipsum", "slug": "ipsum" },
+  { "displayName": "Dolor", "slug": "dolor" },
+  { "displayName": "Lorem Ipsum", "slug": "lorem-ipsum" },
+  { "displayName": "Lorem Ipsum Dolor", "slug": "lorem-ipsum-dolor" }
 ]
