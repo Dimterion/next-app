@@ -1,11 +1,11 @@
 import Form from "next/form";
 import type { ContentPageProps } from "@/types";
-import { getContent } from "@/lib/content";
+import getContent from "@/lib/content";
 import ContentGrid from "@/components/contentGrid";
 
 export default async function ContentPage({ searchParams }: ContentPageProps) {
   const content = await getContent();
-  const query = (await searchParams)?.query?.toLowerCase() || "";
+  const query = searchParams?.query?.toLowerCase() || "";
 
   const filteredContent = query
     ? content.filter(
