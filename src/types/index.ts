@@ -15,9 +15,9 @@ export type Content = {
 };
 
 export type ContentPageProps = {
-  searchParams: {
+  searchParams: Promise<{
     query?: string;
-  };
+  }>;
 };
 
 export type ContentItemProps = {

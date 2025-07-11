@@ -4,14 +4,15 @@ import getContent from "@/lib/content";
 import ContentGrid from "@/components/contentGrid";
 
 export default async function ContentPage({ searchParams }: ContentPageProps) {
+  const { query } = await searchParams;
   const content = await getContent();
-  const query = searchParams?.query?.toLowerCase() || "";
+  const normalizedQuery = query?.toLowerCase() || "";
 
-  const filteredContent = query
+  const filteredContent = normalizedQuery
     ? content.filter(
         (item) =>
-          item.name.toLowerCase().includes(query) ||
-          item.description.toLowerCase().includes(query),
+          item.name.toLowerCase().includes(normalizedQuery) ||
+          item.description.toLowerCase().includes(normalizedQuery),
       )
     : content;
 
@@ -23,7 +24,7 @@ export default async function ContentPage({ searchParams }: ContentPageProps) {
           name="query"
           placeholder="E.g. lorem"
           autoComplete="off"
-          defaultValue={query}
+          defaultValue={normalizedQuery}
           className="w-full rounded-full border border-[#606060] bg-white py-3 pr-5 pl-5 text-sm placeholder-gray-500 focus:border-[#606060] focus:ring-0 focus:outline-none md:text-base"
         />
       </Form>
