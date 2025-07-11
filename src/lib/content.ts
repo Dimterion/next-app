@@ -1,7 +1,7 @@
 import contentData from "@/assets/content/content.json";
 import type { Content, GetContentParams } from "@/types";
 
-export default async function getContent({
+export async function getContent({
   category,
 }: GetContentParams = {}): Promise<Content[]> {
   let filteredContent = [...contentData];
