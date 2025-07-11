@@ -21,7 +21,7 @@ export default function Header() {
         />
       </Link>
       <nav className="flex items-center gap-2.5 text-sm uppercase">
-        <NavLink isActive={pathname === "/content"} href="/content">
+        <NavLink isActive={pathname.startsWith("/content")} href="/content">
           Content
         </NavLink>
         <NavLink isActive={pathname === "/about"} href="/about">
