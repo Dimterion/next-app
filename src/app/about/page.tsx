@@ -12,6 +12,7 @@ export default function AboutPage() {
             alt="About page image"
             width={350}
             height={350}
+            className="rounded-lg"
           />
           <section>
             <p

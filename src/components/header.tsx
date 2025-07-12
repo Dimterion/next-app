@@ -10,7 +10,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="flex w-full items-center justify-between bg-white px-6 py-4">
+    <header className="flex w-full items-center justify-between bg-white p-4">
       <Link href="/">
         <Image
           src={logo}
@@ -20,7 +20,7 @@ export default function Header() {
           height={50}
         />
       </Link>
-      <nav className="flex items-center gap-2.5 text-sm uppercase">
+      <nav className="flex items-center gap-1 text-sm uppercase">
         <NavLink isActive={pathname.startsWith("/content")} href="/content">
           Content
         </NavLink>

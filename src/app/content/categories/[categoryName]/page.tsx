@@ -5,7 +5,7 @@ import ContentGrid from "@/components/contentGrid";
 
 export default async function CategoryItem({ params }: CategoryItemProps) {
   const { categoryName } = await params;
-  const category = getCategoryBySlug(categoryName);
+  const category = await getCategoryBySlug(categoryName);
   const content = await getContent({ category: categoryName });
 
   return <ContentGrid title={category.displayName} content={content} />;

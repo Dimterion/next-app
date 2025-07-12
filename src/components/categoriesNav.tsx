@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import NavLink from "./navLink";
 import { getAllCategories } from "@/lib/categories";
@@ -7,7 +8,20 @@ import { Category } from "@/types";
 
 export default function CategoriesNav() {
   const pathname = usePathname();
-  const categories: Category[] = getAllCategories();
+  const [categories, setCategories] = useState<Category[]>([]);
+
+  useEffect(() => {
+    async function fetchCategories() {
+      try {
+        const data = await getAllCategories();
+        setCategories(data);
+      } catch (error) {
+        console.error("Failed to fetch categories:", error);
+      }
+    }
+
+    fetchCategories();
+  }, []);
 
   return (
     <aside className="sticky top-0 z-10 w-full border-b border-gray-200 bg-white md:fixed md:top-1/2 md:w-64 md:-translate-y-1/2 md:border-none">

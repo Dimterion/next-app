@@ -1,11 +1,33 @@
-import categories from "@/assets/content/categories.json";
 import { Category } from "@/types";
 
-export function getAllCategories(): Category[] {
-  return categories;
+async function getData(): Promise<Category[]> {
+  const url = process.env.NEXT_PUBLIC_CATEGORIES_URL;
+
+  if (!url) {
+    throw new Error("Missing environment variable: NEXT_PUBLIC_CATEGORIES_URL");
+  }
+
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const json: Category[] = await response.json();
+
+    return json;
+  } catch (error) {
+    throw new Error((error as Error).message);
+  }
 }
 
-export function getCategoryBySlug(slug: string): Category {
+export async function getAllCategories(): Promise<Category[]> {
+  return getData();
+}
+
+export async function getCategoryBySlug(slug: string): Promise<Category> {
+  const categories = await getData();
   const category = categories.find((item: Category) => item.slug === slug);
 
   if (!category) {
@@ -15,8 +37,8 @@ export function getCategoryBySlug(slug: string): Category {
   return category;
 }
 
-export function getDisplayNameFromSlug(slug: string): string {
-  const category = getCategoryBySlug(slug);
+export async function getDisplayNameFromSlug(slug: string): Promise<string> {
+  const category = await getCategoryBySlug(slug);
 
   return category.displayName;
 }

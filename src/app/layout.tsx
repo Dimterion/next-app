@@ -26,7 +26,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className="h-full scroll-smooth">
       <body
-        className={`${albertSans.className} ${montserratAlternates.variable} flex h-full flex-col`}
+        className={`${albertSans.className} ${montserratAlternates.variable} flex h-full flex-col justify-between`}
       >
         <Header />
         {children}
