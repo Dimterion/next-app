@@ -10,19 +10,19 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="flex w-full items-center justify-between bg-white p-4">
+    <header className="flex w-full items-center justify-between bg-white p-2 sm:p-4">
       <Link href="/">
         <Image
           src={logo}
           alt="Logo"
-          className="w-[50px] md:w-[150px] rounded-lg"
+          className="rounded-lg"
           width={150}
           height={50}
         />
       </Link>
-      <nav className="flex items-center gap-1 text-sm uppercase">
+      <nav className="ml-4 flex items-center gap-1 text-sm uppercase sm:ml-0">
         <NavLink isActive={pathname.startsWith("/content")} href="/content">
-          Content
+          Story
         </NavLink>
         <NavLink isActive={pathname === "/about"} href="/about">
           About
