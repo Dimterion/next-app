@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/images/logo.svg";
+import logo from "@/assets/images/story_logo.jpg";
 import NavLink from "./navLink";
 
 export default function Header() {
@@ -15,7 +15,7 @@ export default function Header() {
         <Image
           src={logo}
           alt="Logo"
-          className="w-[50px] md:w-[150px]"
+          className="w-[50px] md:w-[150px] rounded-lg"
           width={150}
           height={50}
         />

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="text-center text-sm text-gray-700">
-      &copy; {new Date().getFullYear()} Next App
+      &copy; {new Date().getFullYear()} Trust Issue by Dimterion
     </footer>
   );
 }

@@ -2,6 +2,12 @@
 
 @theme {
   --color-orange-accent: #f77d36;
+
+  --color-dark-primary: #1b2845;
+  --color-light-primary: #e2e8dd;
+  --color-warm-accent: #b8860b; /* #C7A24F */
+  --color-soft-accent: #9fa8a3; /* #7F8C8D */
+  --color-light-secondary: #f0f2eb;
 }
 
 h1,
