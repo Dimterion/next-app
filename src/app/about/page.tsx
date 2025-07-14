@@ -5,7 +5,7 @@ export default function AboutPage() {
   return (
     <main>
       <section className="container mx-auto max-w-4xl px-4 py-8">
-        <h1 className="mb-6 text-center text-4xl font-bold">
+        <h1 className="mb-8 text-center text-4xl font-bold">
           About Trust Issue
         </h1>
         <article className="mb-12 grid items-center gap-8 md:grid-cols-2">
@@ -49,9 +49,19 @@ export default function AboutPage() {
       </section>
       <hr className="border-gray-200" aria-hidden="true" />
       <section className="container mx-auto max-w-3xl px-4 py-8">
-        <h2 className="mb-4 text-2xl font-semibold">Lorem</h2>
-        <p className="mb-4 text-gray-700">Lorem ipsum dolor.</p>
-        <p className="text-gray-700">Lorem ipsum dolor.</p>
+        <h2 className="mb-4 text-2xl font-semibold">Contact</h2>
+        <p className="mb-4 text-gray-700">
+          In case you want to reach out,{" "}
+          <a
+            href="https://www.dimterion.com/contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-accent hover:underline"
+          >
+            here is a link to my contact page
+          </a>
+          .
+        </p>
       </section>
     </main>
   );
