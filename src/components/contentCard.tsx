@@ -1,14 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ContentCardProps } from "@/types";
-import placeholderImg from "@/assets/images/placeholder_img.jpg";
 import Pill from "@/components/pill";
 
 export default function ContentCard({ content }: ContentCardProps) {
   return (
     <Link
       href={`/content/${content.id}`}
-      className="group block transition-all hover:-translate-y-[3px] hover:shadow-[0_5px_12px_rgba(0,0,0,0.1)]"
+      className="group block max-w-[300px] transition-all hover:-translate-y-[3px] hover:shadow-[0_5px_12px_rgba(0,0,0,0.1)]"
       aria-labelledby={`content-${content.id}-title`}
     >
       <article
@@ -16,7 +15,7 @@ export default function ContentCard({ content }: ContentCardProps) {
         role="article"
       >
         <Image
-          src={placeholderImg.src}
+          src={content.image}
           alt={content.name}
           width={300}
           height={300}
@@ -34,15 +33,8 @@ export default function ContentCard({ content }: ContentCardProps) {
           <p className="line-clamp-2 min-h-[2.5rem] text-sm leading-[1.25rem] text-gray-800">
             {content.description}
           </p>
-          <div className="mt-2">
-            <Pill>{content.category}</Pill>
-          </div>
-          <div
-            className="mt-2 flex items-center text-gray-600"
-            aria-label={`${content.likes} likes`}
-          >
-            Likes:
-            <span className="ml-1">{content.likes}</span>
+          <div>
+            <Pill>{content.categoryName}</Pill>
           </div>
         </section>
       </article>

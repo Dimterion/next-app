@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="flex justify-center gap-1 text-sm text-gray-700">
+    <footer className="flex justify-center gap-1 p-1 text-sm text-gray-700">
       <p>&copy; {new Date().getFullYear()}</p>
       <a
         href="https://github.com/Dimterion/next-app"

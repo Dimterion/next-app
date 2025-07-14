@@ -1,7 +1,4 @@
 [
-  { "displayName": "Lorem", "slug": "lorem" },
-  { "displayName": "Ipsum", "slug": "ipsum" },
-  { "displayName": "Dolor", "slug": "dolor" },
-  { "displayName": "Lorem Ipsum", "slug": "lorem-ipsum" },
-  { "displayName": "Lorem Ipsum Dolor", "slug": "lorem-ipsum-dolor" }
+  { "displayName": "Will of life", "slug": "will-of-life" },
+  { "displayName": "Proof of trust", "slug": "proof-of-trust" }
 ]

@@ -1,11 +1,13 @@
 import Image from "next/image";
-import heroImg from "@/assets/images/placeholder_img.jpg";
+import heroImg from "@/assets/images/story_about_page_img.jpg";
 
 export default function AboutPage() {
   return (
     <main>
       <section className="container mx-auto max-w-4xl px-4 py-8">
-        <h1 className="mb-6 text-center text-4xl font-bold">About Next App</h1>
+        <h1 className="mb-6 text-center text-4xl font-bold">
+          About Trust Issue
+        </h1>
         <article className="mb-12 grid items-center gap-8 md:grid-cols-2">
           <Image
             src={heroImg}
@@ -19,9 +21,9 @@ export default function AboutPage() {
               className="mb-4 text-sm text-gray-600 uppercase"
               aria-hidden="true"
             >
-              About Next App
+              A Sci-Fi Story
             </p>
-            <h2 className="mb-4 text-2xl font-semibold">Lorem Ipsum</h2>
+            <h2 className="mb-4 text-2xl font-semibold">Trust Issue</h2>
             <p className="mb-4 text-gray-700">Lorem ipsum dolor.</p>
             <p className="text-gray-700">Lorem ipsum dolor. Lorem ipsum.</p>
           </section>
@@ -46,7 +48,7 @@ export default function AboutPage() {
         </div>
       </section>
       <hr className="border-gray-200" aria-hidden="true" />
-      <section className="prose container mx-auto max-w-3xl px-4 py-8">
+      <section className="container mx-auto max-w-3xl px-4 py-8">
         <h2 className="mb-4 text-2xl font-semibold">Lorem</h2>
         <p className="mb-4 text-gray-700">Lorem ipsum dolor.</p>
         <p className="text-gray-700">Lorem ipsum dolor.</p>

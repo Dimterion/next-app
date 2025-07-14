@@ -8,9 +8,10 @@ export type Content = {
   id: number;
   name: string;
   description: string;
-  likes: number;
+  text: string;
   image: string;
   category: string;
+  categoryName: string;
   dateAdded: string;
 };
 

@@ -27,7 +27,7 @@ export default function CategoriesNav() {
     <aside className="sticky top-0 z-10 w-full border-b border-gray-200 bg-white md:fixed md:top-1/2 md:w-64 md:-translate-y-1/2 md:border-none">
       <nav className="scrollbar-hide flex w-full space-x-4 overflow-x-auto px-4 py-3 whitespace-nowrap md:flex-col md:space-x-0 md:overflow-visible md:p-0">
         <NavLink isActive={pathname === "/content"} href="/content">
-          All
+          All chapters
         </NavLink>
         {categories.map((category) => (
           <NavLink

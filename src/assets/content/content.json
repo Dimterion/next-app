@@ -1,65 +1,172 @@
 [
   {
     "id": 1,
-    "name": "Lorem Ipsum 1",
-    "description": "Lorem ipsum dolor 1.",
-    "likes": 1847,
-    "image": "https://place-hold.it/300",
-    "category": "lorem",
-    "dateAdded": "2025-03-15T14:30:00Z"
+    "name": "Will of life (1)",
+    "description": "Chapter 1. Part 1.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2025-03-15"
   },
   {
     "id": 2,
-    "name": "Lorem Ipsum 2",
-    "description": "Lorem ipsum dolor 2.",
-    "likes": 456,
-    "image": "https://place-hold.it/300",
-    "category": "ipsum",
-    "dateAdded": "2025-06-22T09:15:00Z"
+    "name": "Will of life (2)",
+    "description": "Chapter 1. Part 2.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2025-06-22"
   },
   {
     "id": 3,
-    "name": "Lorem Ipsum 3",
-    "description": "Lorem ipsum dolor 3.",
-    "likes": 1253,
-    "image": "https://place-hold.it/300",
-    "category": "dolor",
-    "dateAdded": "2025-09-05T16:45:00Z"
+    "name": "Will of life (3)",
+    "description": "Chapter 1. Part 3.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2025-09-05"
   },
   {
     "id": 4,
-    "name": "Lorem Ipsum 4",
-    "description": "Lorem Ipsum 4.",
-    "likes": 892,
-    "image": "https://place-hold.it/300",
-    "category": "lorem",
-    "dateAdded": "2023-11-30T11:20:00Z"
+    "name": "Will of life (4)",
+    "description": "Chapter 1. Part 4.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2023-11-30"
   },
   {
     "id": 5,
-    "name": "Lorem Ipsum 5",
-    "description": "Lorem Ipsum 5.",
-    "likes": 345,
-    "image": "https://place-hold.it/300",
-    "category": "ipsum",
-    "dateAdded": "2024-01-18T13:40:00Z"
+    "name": "Will of life (5)",
+    "description": "Chapter 1. Part 5.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
   },
   {
     "id": 6,
-    "name": "Lorem Ipsum 6",
-    "description": "Lorem Ipsum 6.",
-    "likes": 345,
-    "image": "https://place-hold.it/300",
-    "category": "lorem",
-    "dateAdded": "2024-01-18T13:40:00Z"
+    "name": "Will of life (6)",
+    "description": "Chapter 1. Part 6.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
   },
   {
     "id": 7,
-    "name": "Lorem Ipsum 7",
-    "description": "Lorem Ipsum 7.",
-    "likes": 345,
-    "image": "https://place-hold.it/300",
-    "category": "lorem-ipsum",
-    "dateAdded": "2024-01-18T13:40:00Z"
+    "name": "Will of life (7)",
+    "description": "Chapter 1. Part 1.7.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 8,
+    "name": "Will of life (8)",
+    "description": "Chapter 1. Part 8.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 9,
+    "name": "Will of life (9)",
+    "description": "Chapter 1. Part 9.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 10,
+    "name": "Will of life (10)",
+    "description": "Chapter 1. Part 10.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 11,
+    "name": "Will of life (11)",
+    "description": "Chapter 1. Part 11.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 12,
+    "name": "Will of life (12)",
+    "description": "Chapter 1. Part 12.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 13,
+    "name": "Will of life (13)",
+    "description": "Chapter 1. Part 13.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 14,
+    "name": "Will of life (14)",
+    "description": "Chapter 1. Part 14.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_1_cover_img.jpg",
+    "category": "will-of-life",
+    "categoryName": "Will of life",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 15,
+    "name": "Proof of trust (1)",
+    "description": "Chapter 2. Part 1.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_2_cover_img.jpg",
+    "category": "proof-of-trust",
+    "categoryName": "Proof of trust",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 16,
+    "name": "Proof of trust (2)",
+    "description": "Chapter 2. Part 2.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_2_cover_img.jpg",
+    "category": "proof-of-trust",
+    "categoryName": "Proof of trust",
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 17,
+    "name": "Proof of trust (3)",
+    "description": "Chapter 2. Part 3.",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam vel suscipit neque est totam alias sint, sit nemo, corporis assumenda eligendi, excepturi asperiores repellat modi? Debitis rerum, minus officia dolor tempore sint voluptate eaque non sequi doloremque ea minima quasi laborum reprehenderit fugit voluptas enim, qui pariatur repellendus itaque consequuntur vitae doloribus suscipit! Voluptas sapiente dolorum incidunt et? Rerum maiores ullam eius deleniti quod culpa sapiente expedita, tempora aliquam aperiam maxime eveniet voluptas nostrum aspernatur mollitia accusantium repellat optio, dolore, iure impedit molestiae. Unde error, qui cumque voluptates libero neque a magni, tenetur rem odit ipsum eius, omnis eligendi.",
+    "image": "/assets/images/chapter_2_cover_img.jpg",
+    "category": "proof-of-trust",
+    "categoryName": "Proof of trust",
+    "dateAdded": "2024-01-18"
   }
 ]
