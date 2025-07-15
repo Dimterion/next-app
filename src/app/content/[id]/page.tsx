@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import ReactMarkdown from "react-markdown";
 import type { ContentItemProps } from "@/types";
@@ -13,6 +14,16 @@ export default async function ContentItem({ params }: ContentItemProps) {
     ? await fetchText(content.textLink)
     : null;
 
+  let nextPageLink = "/";
+
+  try {
+    const nextPageContent = await getContentById(Number(id) + 1);
+
+    nextPageLink = `/content/${nextPageContent.id}`;
+  } catch {
+    nextPageLink = "/content";
+  }
+
   return (
     <section className="container mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-8">
       <Image
@@ -22,6 +33,9 @@ export default async function ContentItem({ params }: ContentItemProps) {
         width={500}
         height={500}
       />
+      <Link href={nextPageLink}>
+        {nextPageLink === "/content" ? "Back to Contents" : "Next"}
+      </Link>
       <article className="flex h-full flex-col justify-center">
         <h1 className="mb-6 text-4xl font-bold">{content.name}</h1>
         <Pill className="mb-6 w-fit" aria-label="Category">
