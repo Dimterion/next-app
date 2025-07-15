@@ -8,6 +8,7 @@ export type Content = {
   id: number;
   name: string;
   description: string;
+  textLink: string;
   text: string;
   image: string;
   category: string;
