@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import ReactMarkdown from "react-markdown";
+import { FaBackward, FaForward, FaRegListAlt } from "react-icons/fa";
 import type { ContentItemProps } from "@/types";
 import { getContentById } from "@/lib/content";
 import { fetchText } from "@/lib/utils";
@@ -46,15 +47,15 @@ export default async function ContentItem({ params }: ContentItemProps) {
       <aside className="flex gap-4">
         <Link
           className="border-2 border-black bg-white px-6 py-3 text-black transition duration-100 hover:bg-black hover:text-white"
-          href={nextPageLink}
+          href={prevPageLink}
         >
-          {nextPageLink === "/content" ? "Back to Contents" : "Next"}
+          {prevPageLink === "/content" ? <FaRegListAlt /> : <FaBackward />}
         </Link>
         <Link
           className="border-2 border-black bg-white px-6 py-3 text-black transition duration-100 hover:bg-black hover:text-white"
-          href={prevPageLink}
+          href={nextPageLink}
         >
-          {prevPageLink === "/content" ? "Back to Contents" : "Previous"}
+          {nextPageLink === "/content" ? <FaRegListAlt /> : <FaForward />}
         </Link>
       </aside>
       <article className="flex h-full flex-col justify-center">
@@ -76,6 +77,20 @@ export default async function ContentItem({ params }: ContentItemProps) {
           Added on {content.dateAdded}
         </time>
       </article>
+      <aside className="flex gap-4">
+        <Link
+          className="border-2 border-black bg-white px-6 py-3 text-black transition duration-100 hover:bg-black hover:text-white"
+          href={prevPageLink}
+        >
+          {prevPageLink === "/content" ? <FaRegListAlt /> : <FaBackward />}
+        </Link>
+        <Link
+          className="border-2 border-black bg-white px-6 py-3 text-black transition duration-100 hover:bg-black hover:text-white"
+          href={nextPageLink}
+        >
+          {nextPageLink === "/content" ? <FaRegListAlt /> : <FaForward />}
+        </Link>
+      </aside>
     </section>
   );
 }
