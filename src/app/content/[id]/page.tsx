@@ -24,6 +24,16 @@ export default async function ContentItem({ params }: ContentItemProps) {
     nextPageLink = "/content";
   }
 
+  let prevPageLink = "/";
+
+  try {
+    const prevContent = await getContentById(Number(id) - 1);
+
+    prevPageLink = `/content/${prevContent.id}`;
+  } catch {
+    prevPageLink = "/content";
+  }
+
   return (
     <section className="container mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-8">
       <Image
@@ -33,9 +43,20 @@ export default async function ContentItem({ params }: ContentItemProps) {
         width={500}
         height={500}
       />
-      <Link href={nextPageLink}>
-        {nextPageLink === "/content" ? "Back to Contents" : "Next"}
-      </Link>
+      <aside className="flex gap-4">
+        <Link
+          className="border-2 border-black bg-white px-6 py-3 text-black transition duration-100 hover:bg-black hover:text-white"
+          href={nextPageLink}
+        >
+          {nextPageLink === "/content" ? "Back to Contents" : "Next"}
+        </Link>
+        <Link
+          className="border-2 border-black bg-white px-6 py-3 text-black transition duration-100 hover:bg-black hover:text-white"
+          href={prevPageLink}
+        >
+          {prevPageLink === "/content" ? "Back to Contents" : "Previous"}
+        </Link>
+      </aside>
       <article className="flex h-full flex-col justify-center">
         <h1 className="mb-6 text-4xl font-bold">{content.name}</h1>
         <Pill className="mb-6 w-fit" aria-label="Category">
