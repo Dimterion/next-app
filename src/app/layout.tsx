@@ -19,7 +19,7 @@ const montserratAlternates = Montserrat_Alternates({
 
 export const metadata: Metadata = {
   title: "Trust Issue",
-  description: "Trust Issue",
+  description: "A sci-fi story.",
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
