@@ -2,4 +2,33 @@
 
 # Trust Issue
 
-A site for a sci-fi story made with Next.js
+Next.js / TypeScript web site
+
+## 📋 Table of Contents
+
+- [Introduction](#introduction)
+- [Tech Stack](#tech-stack)
+- [Contact Info](#contact-info)
+
+## <a id="introduction"></a>🔎 Introduction
+
+A site for a sci-fi story made with Next.js.
+
+## <a id="tech-stack"></a>⚙️ Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React Icons
+- Prettier
+- Vercel
+
+## <a id="contact-info"></a>📫 Contact info
+
+### Profile Links ⬇️
+
+<a href="https://linktr.ee/dimterion">
+  <img src="https://raw.githubusercontent.com/Dimterion/Dimterion/1521172f216f8f90db6b3b986c1cbb19994847eb/images/bio_link_image.svg" alt="Dimterion profile links image" />
+</a>
+
+**Note:** Ctrl+Click (Windows/Linux) or Cmd+Click (macOS) the image to open link in a new tab.

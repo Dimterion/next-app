@@ -18,8 +18,8 @@ const montserratAlternates = Montserrat_Alternates({
 });
 
 export const metadata: Metadata = {
-  title: "Next App",
-  description: "Next App",
+  title: "Trust Issue",
+  description: "Trust Issue",
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
